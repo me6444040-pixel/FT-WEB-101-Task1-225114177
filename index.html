@@ -1,0 +1,73 @@
+<!-- 
+  Name: Mohammed Essam Shebl Elkat
+  ID: 225114177
+  Course: FT-WEB-101 - Task 1: Profile page
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammed Essam Shebl Elkat - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Mohammed Essam Shebl Elkat</h1>
+    <nav class="nav-bar">
+      <div class="nav-name">Mohammed Essam</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#cards">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="hero-section">
+      <img src="images/me.jpg" alt="Photo of Mohammed Essam Shebl Elkat" class="profile-photo">
+      <button id="theme-toggle" class="btn">Toggle Dark Mode</button>
+    </section>
+
+    <section id="cards" class="cards-container">
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>Passionate about building clean, responsive, and user-friendly web applications using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>Problem Solving</h3>
+        <p>Enjoy tackling complex logical problems, algorithmic challenges, and optimizing code performance.</p>
+      </div>
+      <div class="card">
+        <h3>Hobbies</h3>
+        <p>Interested in exploring new software technologies, reading tech articles, and learning modern UI design.</p>
+      </div>
+    </section>
+
+    <section id="contact" class="form-section">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mohammed Essam Shebl Elkat. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
